@@ -17,7 +17,7 @@ fruits = fruits.map(function(currentElement) {
 	return currentElement.toLowerCase();
 });
 
-alert('All even numbers are in LowerCase\n'+ fruits);
+alert('All numbers are in LowerCase\n'+ fruits);
 
 var berries = [];
 
@@ -26,7 +26,7 @@ while (index >= 0) {
 	switch (fruits[index]) {
 		case 'strawberry':
 		case 'cherry':
-		case 'banana':
+		case 'melon':
 			berries.push(fruits.splice(index, 1)[0]);
 	}
 	index--;
