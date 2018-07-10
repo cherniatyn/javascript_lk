@@ -1,6 +1,6 @@
 var expression, resultField;
 var result = "Result = "
-var expressionPattern = /(\-?\d+[.,]?\d*)\s*([+\/*%:^-]{1})\s*(\-?\d+[.,]?\d*)/;
+var expressionPattern = /^\s*(\-?\d+[.,]?\d*)\s*([+\/*%:^-]{1})\s*(\-?\d+[.,]?\d*)\s*$/;
 window.onload = function(){
     var bodyNode = document.getElementsByTagName("body")[0];
 	expression = document.createElement("input");
